@@ -1,0 +1,78 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,7,91,1) 95%);
+}
+
+header {
+    backdrop-filter: blur(100px) saturate(50%);
+  -webkit-backdrop-filter: blur(9px) saturate(182%);
+  background-color: rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(209, 213, 219, 0.3);
+	color: white;
+	text-align: center;
+	padding: 1rem 0;
+	border: 1px solid rgba(255, 255, 255, 0.597);
+}
+#input{
+	margin-top: 1rem;
+	display: flex;
+	justify-content: center;
+}
+#searc{
+	width: 60%;
+	height: 35px;
+	border-radius: 3px;
+	text-decoration: none;
+	outline: none;
+	border: none;
+}
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 2rem;
+}
+.task-form input{
+	text-decoration: none;
+	outline: none;
+	border: none;
+	border-radius: 3px;
+}
+.task-form {
+	display: flex;
+	gap: 10px;
+	margin-bottom: 20px;
+	justify-content: center;
+	height: 30px;
+	
+
+}
+.task {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 3rem;
+	padding: 5px;
+	text-align: center;
+	width: 100%;
+	height: 90px;
+	backdrop-filter: blur(100px) saturate(50%);
+	-webkit-backdrop-filter: blur(9px) saturate(182%);
+	background-color: rgba(255, 255, 255, 0.25);
+	border: 1px solid rgba(209, 213, 219, 0.3);
+	border: 1px solid rgba(255, 255, 255, 0.597);
+	border-radius: 5px;
+	border-radius: 3px;
+    color: white;
+}
+
+
+.task button {
+	background-color: #28a745;
+	color: white;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
